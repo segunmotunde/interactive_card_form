@@ -1,0 +1,19 @@
+.cardFront, .cardBack{
+    width: 70%;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+}
+
+.cardFront img, .cardBack img{
+    width: 100%;
+}
+.cardFront p, .cardBack p {
+    position: absolute;
+    top: 50%;
+    right: 40%;
+}
+
+
+
+
+

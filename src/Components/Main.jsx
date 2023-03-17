@@ -5,12 +5,11 @@ import Form from './Form'
 
 const Main = () => {
   return (
-    <div>
-        <div>
+        <div className='container'>
             <Card/>
             <Form/>
         </div>
-    </div>
+  
     
   )
 }
