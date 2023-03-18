@@ -3,4 +3,32 @@
     font-family: 'Space Grotesk', sans-serif;
     font-size: 18px;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    width: 100vw;
+}
 
+.container{
+    width: 100% !important;
+    height: 100vh;
+    background-image: url(../images/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    
+  }
+  @media (min-width: 980px){
+    .container{
+      width: 100% !important;
+      height: 100vh;
+      background-image: url(../images/bg-main-desktop.png);
+      background-repeat: no-repeat;
+      background-position: left !important;
+      background-size: contain;
+      display: flex;
+    }
+  }

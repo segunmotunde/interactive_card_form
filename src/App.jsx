@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import React from 'react'
 import './App.css'
-import Main from './Components/Main'
+import Card from "./Components/Card"
+import Form from "./Components/Form"
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <div className="App">
-      <Main/>
+    <div className="container">
+            <Card/>
+            <Form/>
     </div>
   )
 }

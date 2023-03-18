@@ -3,17 +3,59 @@
     color: hsl(0, 0%, 100%);
     position: relative;
 }
+.cardFront{
+    top: 10rem;
+    z-index: 1;
+    right: 30%;
+}
+.cardBack{
+    top: -10rem;
+    left: 30%;
+}
 
 .cardFront img, .cardBack img{
     width: 100%;
 }
-.cardFront p, .cardBack p {
+.cardFront p {
     position: absolute;
     top: 50%;
-    right: 40%;
+    right: 50%;
+    transform: translateX(50%);
+}
+.cardBack p {
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    transform: translateX(50%);
+}
+.nameContainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: absolute;
+    top: 80%;
+    right: 50%;
+    transform: translateX(50%);
 }
 
 
 
+@media (min-width: 980px){
+    .cardFront{
+        width: 70%;
+        color: hsl(0, 0%, 100%);
+        position: relative;
+        top: 20%;
+        left: 30%;
+    }
+    .cardBack{
+        width: 70%;
+        color: hsl(0, 0%, 100%);
+        position: relative;
+        top: 30%;
+        left: 40%;
+    }
+}
 
 
