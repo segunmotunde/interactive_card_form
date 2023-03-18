@@ -1,16 +1,31 @@
-.cardFront, .cardBack{
-    width: 70%;
-    color: hsl(0, 0%, 100%);
+.body{
+    background-image: url(../images/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100vw;
+    margin-bottom: 50px;
+}
+.Container{
+    max-width: 300px;
+    margin: auto;
     position: relative;
+    outline: 5px solid yellow;
+}
+.cardFront, .cardBack{
+    width: 280px;
+    color: hsl(0, 0%, 100%);
+    position: absolute;
 }
 .cardFront{
-    top: 10rem;
     z-index: 1;
-    right: 30%;
+    top: 139px;
+    right: 48px;
+   
 }
 .cardBack{
-    top: -10rem;
-    left: 30%;
+    top: 50px;
+    right: 0px;
 }
 
 .cardFront img, .cardBack img{
@@ -40,22 +55,26 @@
 }
 
 
+@media (min-width: 545px ){
+    .Container {
+        max-width: 400px;
+    }
+    .body{
+        height: 50vh;
+        margin-bottom: 10em;
+    }
+    .cardFront, .cardBack{
+        width: 400px;
+    }
+    .cardFront{
+        top: 183px;
+        right: 48px;
+       
+    }
+}
 
 @media (min-width: 980px){
-    .cardFront{
-        width: 70%;
-        color: hsl(0, 0%, 100%);
-        position: relative;
-        top: 20%;
-        left: 30%;
-    }
-    .cardBack{
-        width: 70%;
-        color: hsl(0, 0%, 100%);
-        position: relative;
-        top: 30%;
-        left: 40%;
-    }
+ 
 }
 
 

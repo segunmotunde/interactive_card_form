@@ -7,28 +7,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
-.App{
-    width: 100vw;
+body{
+    min-height: 100vh;
 }
 
-.container{
-    width: 100% !important;
-    height: 100vh;
-    background-image: url(../images/bg-main-mobile.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
-    
-  }
+ /* .App{
+    width: 100vw;
+} */
+
+
+  
   @media (min-width: 980px){
     .container{
-      width: 100% !important;
       height: 100vh;
-      background-image: url(../images/bg-main-desktop.png);
-      background-repeat: no-repeat;
-      background-position: left !important;
-      background-size: contain;
       display: flex;
     }
-  }
+  } 
