@@ -10,7 +10,7 @@
     max-width: 300px;
     margin: auto;
     position: relative;
-    outline: 5px solid yellow;
+    
 }
 .cardFront, .cardBack{
     width: 280px;
@@ -74,7 +74,21 @@
 }
 
 @media (min-width: 980px){
- 
+    .body{
+        background-image: url(../images/bg-main-desktop.png);
+        height: 100vh;
+        width: 30vw;
+    }
+    .cardFront{
+        z-index: 1;
+        top: 117px;
+        right: -132px;
+       
+    }
+    .cardBack{
+        top: 368px;
+        right: -206px;
+    }
 }
 
 
