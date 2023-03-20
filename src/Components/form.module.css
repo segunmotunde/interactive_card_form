@@ -55,3 +55,28 @@
     font-weight: 100;
     /* margin-bottom: 2em; */
 }
+
+
+@media (min-width: 545px ){
+    .form{
+        width: 37%;
+        margin: auto;
+        margin-top: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25%;
+    }
+}
+
+@media (min-width: 980px){
+    .form{
+        width: 37%;
+        margin: auto;
+        margin-top: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25%;
+    }
+}
