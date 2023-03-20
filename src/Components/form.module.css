@@ -1,0 +1,57 @@
+.form{
+    width: 87%;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formDiv{
+    margin-bottom: 1.5em;
+    display: block;
+}
+
+.formDiv input{
+    width: 100%;
+    margin-top: 0.3em;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 100;
+    border: 1px solid rgba(150, 149, 149, 0.5);
+    /* font-: rgba(150, 149, 149, 0.5); */
+}
+
+.formDiv3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.expiry{
+    width: 55%;
+}
+
+.expiry input{
+    width: 40%;
+    margin-right: 0.5em;
+}
+
+.cvc{
+    width: 45%;
+}
+
+
+.button button{
+    width: 100%;
+    border: none;
+    background-color: rgb(15, 0, 15);
+    padding: 15px;
+    border-radius: 7px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 100;
+    /* margin-bottom: 2em; */
+}
