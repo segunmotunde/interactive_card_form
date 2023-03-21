@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import form from './form.module.css'
 
 const Form = ({handleForm, handleSubmit, formData}) => {
@@ -7,7 +8,7 @@ const Form = ({handleForm, handleSubmit, formData}) => {
     <div className={form.form}>
       <form onSubmit={handleSubmit}>
         <div className={form.formDiv}>
-          <label for="name">CARDHOLDER NAME</label>
+          <label htmlFor="name">CARDHOLDER NAME</label>
           <input 
           type={"text"} 
           className='name' 
@@ -55,7 +56,7 @@ const Form = ({handleForm, handleSubmit, formData}) => {
              />
           </div>
           <div className={form.cvc}>
-            <label for="cvc">CVC</label><br></br>
+            <label htmlFor="cvc">CVC</label><br></br>
             <input 
             type={"number"} 
             className='cvc' 
@@ -69,7 +70,7 @@ const Form = ({handleForm, handleSubmit, formData}) => {
           </div>
         </div>
         <div className={form.button}>
-          <button type='submit'>Confirm</button>
+          <button type='submit'><Link to="/thankyou" >Confirm</Link></button>
         </div>
       </form>
     </div>
